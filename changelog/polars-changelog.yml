@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/pola-rs/polars/releases
+scheme: semver
+notes: Polars publishes per-binding GitHub Releases (Python, Rust) with dated changelogs; the Rust core and Python wheel version independently.
+current:
+  python: 1.42.1
+  rust: 0.54.4
+entries:
+- version: 'py-1.42.1'
+  date: '2026-06-30'
+  breaking: false
+  highlights:
+  - Bug fixes and performance improvements
+  - Fix incorrect sorted fast-path returning nan for grouped max
+  - Fix panic on scan_parquet filter of fixed-size binary column
+- version: 'py-1.42.0'
+  date: '2026-06-24'
+  breaking: false
+  highlights:
+  - Deprecate the strict parameter of pl.concat in favor of how='horizontal_extend'
+  - New features and query-engine enhancements
+- version: 'rust-0.54.4'
+  date: '2026-06-04'
+  breaking: false
+  highlights:
+  - Rust core release with bug fixes and optimizer improvements
+- version: 'py-1.41.2'
+  date: '2026-05-29'
+  breaking: false
+  highlights:
+  - Patch release with bug fixes
+- version: 'py-1.41.1'
+  date: '2026-05-27'
+  breaking: false
+  highlights:
+  - Patch release with bug fixes

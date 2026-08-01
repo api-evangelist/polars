@@ -1,8 +1,24 @@
 aid: polars
 name: Polars
-description: 'Polars is a company surfaced as a portfolio company of accel, bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: apis. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Polars is a blazingly fast, open-source DataFrame library and query engine
+  written in Rust, with first-party bindings for Python, Rust, Node.js, and R. It provides
+  lazy and eager execution, streaming for larger-than-memory datasets, automatic query
+  optimization, multi-threading, and the Apache Arrow columnar memory format. Polars
+  Cloud extends the same DataFrame API to managed and on-premise distributed compute
+  with zero code changes. The project is developed by pola-rs and backed by Accel and
+  Bain Capital Ventures.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/polars/refs/heads/main/apis.yml
 url: https://raw.githubusercontent.com/api-evangelist/polars/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Apis
+- DataFrames
+- Data Processing
+- Query Engine
+- Rust
+- Python
+- Analytics
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/polars-domain-security.yml
 - type: Website
   url: https://pola.rs/
+- type: Documentation
+  url: https://docs.pola.rs/user-guide/
+- type: APIReference
+  url: https://docs.pola.rs/api/python/stable/reference/index.html
+- type: GettingStarted
+  url: https://docs.pola.rs/user-guide/getting-started/
+- type: Blog
+  url: https://pola.rs/posts/
+- type: GitHubOrganization
+  url: https://github.com/pola-rs
+- type: Support
+  url: https://discord.com/invite/4UfP5cfBE7
+- type: Packages
+  url: packages/polars-packages.yml
+- type: SDKs
+  url: packages/polars-packages.yml
+- type: ChangeLog
+  url: changelog/polars-changelog.yml
+- type: LLMsTxt
+  url: llms/polars-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

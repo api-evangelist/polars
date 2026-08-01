@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: PyPI, crates.io, npm, CRAN + docs.pola.rs
+packages:
+- language: python
+  registry: pypi
+  name: polars
+  url: https://pypi.org/project/polars/
+  install: pip install polars
+  official: true
+  repo: https://github.com/pola-rs/polars
+- language: rust
+  registry: crates.io
+  name: polars
+  url: https://crates.io/crates/polars
+  install: cargo add polars
+  official: true
+  repo: https://github.com/pola-rs/polars
+- language: javascript
+  registry: npm
+  name: nodejs-polars
+  url: https://www.npmjs.com/package/nodejs-polars
+  install: npm install nodejs-polars
+  official: true
+  repo: https://github.com/pola-rs/nodejs-polars
+- language: r
+  registry: r-universe
+  name: polars
+  url: https://pola-rs.github.io/r-polars/
+  install: install.packages("polars", repos = "https://community.r-multiverse.org")
+  official: true
+  repo: https://github.com/pola-rs/r-polars
+- language: python
+  registry: pypi
+  name: polars-cloud
+  url: https://pypi.org/project/polars-cloud/
+  install: pip install polars-cloud
+  official: true
+  summary: Run Polars remotely, in the Cloud or on-prem (Polars Cloud client)
