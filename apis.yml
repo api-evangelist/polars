@@ -7,6 +7,17 @@ description: 'Polars is a blazingly fast, open-source DataFrame library and quer
   Cloud extends the same DataFrame API to managed and on-premise distributed compute
   with zero code changes. The project is developed by pola-rs and backed by Accel and
   Bain Capital Ventures.'
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
