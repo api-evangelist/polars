@@ -49,7 +49,7 @@ tags:
 - Rust
 - Python
 - Analytics
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Apis
@@ -60,6 +60,7 @@ tags_raw:
 - Python
 - Analytics
 - Open Source
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
